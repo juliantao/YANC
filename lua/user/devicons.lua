@@ -1,5 +1,9 @@
+local status_ok, devicons = pcall(require, "nvim-web-devicons")
+if not status_ok then
+	return
+end
 
-require("nvim-web-devicons").set_icon({
+devicons.set_icon({
 	zsh = {
 		icon = "",
 		color = "#428850",

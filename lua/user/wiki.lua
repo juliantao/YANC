@@ -1,13 +1,13 @@
 vim.g.vimwiki_list = {
-  {
-    path = "~/Dropbox (ASU)/wiki",
-    syntax = "markdown",
-    diary_header = "Journal",
-    auto_diary_index = 1,
-    auto_generate_links = 1,
-    auto_generate_tags = 1,
-    ext = ".qmd",
-  },
+	{
+		path = "~/Dropbox (ASU)/wiki",
+		syntax = "markdown",
+		diary_header = "Journal",
+		auto_diary_index = 1,
+		auto_generate_links = 1,
+		auto_generate_tags = 1,
+		ext = ".qmd",
+	},
 }
 vim.g.vimwiki_commentstring = "<!--%s-->"
 vim.g.vimwiki_folding = ""
